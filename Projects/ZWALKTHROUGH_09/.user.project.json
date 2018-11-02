@@ -11,11 +11,12 @@
       "urlParameters": [],
       "hashParameter": "",
       "backendSystem": [],
+      "urlParametersNotNeeded": false,
       "_metadata": {
         "runnerId": "webapprunner",
-        "id": 5390978,
+        "id": 4583198,
         "displayName": "Run index.html",
-        "lastRunTimeStamp": 1541126440999
+        "lastRunTimeStamp": 1541133253862
       }
     }
   ]

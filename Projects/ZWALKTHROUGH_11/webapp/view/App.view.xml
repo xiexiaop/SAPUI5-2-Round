@@ -1,0 +1,17 @@
+<mvc:View controllerName="ZWT_11ZWALKTHROUGH_11.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>homePageTitle}">
+				<content>
+					<Panel headerText="{i18n>helloPanelTitle}">
+						<content>
+							<Button text="{i18n>showHelloButtonText}" press="onShowHello"/>
+							<Input value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%"/>
+						</content>
+					</Panel>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

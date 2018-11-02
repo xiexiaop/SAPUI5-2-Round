@@ -1,11 +1,11 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"ZHELLO_WORLDZHELLO_WORLD/model/models"
+	"ZWT_08ZWALKTHROUGH_08/model/models"
 ], function(UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("ZHELLO_WORLDZHELLO_WORLD.Component", {
+	return UIComponent.extend("ZWT_08ZWALKTHROUGH_08.Component", {
 
 		metadata: {
 			manifest: "json"
