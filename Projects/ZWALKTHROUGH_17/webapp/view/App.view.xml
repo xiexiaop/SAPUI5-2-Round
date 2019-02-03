@@ -1,0 +1,12 @@
+<mvc:View controllerName="ZWALKTHROUGH_17.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App class="myAppDemoWT">
+		<pages>
+			<Page title="{i18n>homePageTitle}">
+				<content>
+					<mvc:XMLView viewName="ZWALKTHROUGH_17.view.HelloPanel"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
