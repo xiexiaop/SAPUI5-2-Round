@@ -12,6 +12,15 @@
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
 			"version": "1.40.12"
+		},
+		"dataSources": {
+			"invoiceRemote": {
+				"uri": "https://services.odata.org/V2/Northwind/Northwind.svc/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			}
 		}
 	},
 	"sap.ui": {
@@ -60,8 +69,7 @@
 				}
 			},
 			"invoice": {
-				"type": "sap.ui.model.json.JSONModel",
-				"uri": "staticData/Invoices.json"
+				"dataSource": "invoiceRemote"
 			}
 		},
 		"resources": {
