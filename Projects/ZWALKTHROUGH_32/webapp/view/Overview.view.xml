@@ -1,0 +1,16 @@
+<mvc:View controllerName="ZWALKTHROUGH_32.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App class="myAppDemoWT">
+		<pages>
+			<Page title="{i18n>homePageTitle}">
+				<headerContent>
+					<Button icon="sap-icon://hello-world" press="onOpenDialog"/>
+				</headerContent>
+				<content>
+					<mvc:XMLView viewName="ZWALKTHROUGH_32.view.HelloPanel"/>
+					<mvc:XMLView viewName="ZWALKTHROUGH_32.view.InvoiceList"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,6 @@
+<mvc:View controllerName="ZWALKTHROUGH_34.controller.Detail" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:wt="ZWALKTHROUGH_34.control">
+	<Page title="{i18n>detailPageTitle}" showNavButton="true" navButtonPress="onNavBack">
+		<ObjectHeader intro="{invoice>ShipperName}" title="{invoice>ProductName}"></ObjectHeader>
+		<wt:ProductRating id="rating" class="sapUiSmallMarginBeginEnd" change="onRatingChange"></wt:ProductRating>
+	</Page>
+</mvc:View>
